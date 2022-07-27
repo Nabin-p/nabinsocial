@@ -51,7 +51,7 @@ html{
 #logo{
     margin: 10px 34px;
 }
- 
+
 #logo img{
     height: 59px;
     margin: 3px 6px;
@@ -76,11 +76,15 @@ html{
     color: white;
     display: block;
     padding: 3px 22px;
-    border-radius: 20px;
+    border-radius: 20px;                                                        
     text-decoration: none;
-}
+} 
 
 
+/* #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+} */
 
 #navbar ul li a {
     display: inline-block;
@@ -104,7 +108,6 @@ html{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-
 
 #home{
     display: flex;
@@ -194,6 +197,7 @@ html{
     justify-content: center;
     align-items: center;
     padding-bottom: 34px;
+    /* z-index:  -5 ; */
 }
 #contact-box input, 
 #contact-box textarea{
@@ -201,7 +205,7 @@ html{
     padding: 0.5rem;
     border: 1px solid brown;
     border-radius: 9px;
-/*     font-size: 1.1rem; */
+    /* font-size: 1.1rem; */
 } 
 
 #contact-box form{
